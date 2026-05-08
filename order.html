@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order - Fashion Pie</title>
+
+<style>
+body{
+font-family:Arial;
+background:#fff0f6;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:#ff6ea8;
+}
+
+form{
+max-width:400px;
+margin:auto;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 12px rgba(0,0,0,0.1);
+}
+
+input,select{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:12px;
+background:#ff8fb3;
+border:none;
+color:white;
+font-size:16px;
+border-radius:10px;
+}
+
+button:hover{
+background:#ff6ea8;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🛒 Fashion Pie Order</h1>
+
+<form action="payment.html">
+
+<label>Product</label>
+<select required>
+<option>Dress</option>
+<option>Bag</option>
+<option>Shoes</option>
+</select>
+
+<label>Size</label>
+<select required>
+<option>S</option>
+<option>M</option>
+<option>L</option>
+</select>
+
+<label>Color</label>
+<input type="text" placeholder="Pink / White / Black" required>
+
+<label>Name</label>
+<input type="text" required>
+
+<label>Phone</label>
+<input type="tel" required>
+
+<label>Address</label>
+<input type="text" required>
+
+<button type="submit">Continue to Payment 💳</button>
+
+</form>
+
+</body>
+</html>
