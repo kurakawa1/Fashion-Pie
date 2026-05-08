@@ -80,7 +80,41 @@ footer {
 </style>
 </head>
 
-<body>
+<body><h2>Our Product 🌸</h2>
+
+<div style="background:white;padding:20px;border-radius:10px;margin:20px;">
+<img src="https://via.placeholder.com/250" width="200">
+
+<h3>Fashion Dress</h3>
+<p>Price - 25000 MMK</p>
+
+<label>Size:</label>
+<select>
+<option>S</option>
+<option>M</option>
+<option>L</option>
+</select>
+
+<br><br>
+
+<label>Color:</label>
+<select>
+<option>Pink</option>
+<option>White</option>
+<option>Black</option>
+</select>
+
+<br><br>
+
+<button onclick="addToCart()">🛒 Add to Cart</button>
+</div>
+
+<script>
+function addToCart(){
+alert("Added to cart 🛒");
+window.location.href="cart.html";
+}
+</script>
 
 <header>
 <h1>🌸 Fashion Pie 🌸</h1>
